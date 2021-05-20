@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+.barra-navegacion{
+    background-color:white;
+    padding: 0 !important;
+    margin: 0;
+    
+}
+
+.barra-navegacion li{
+    border: none;
+    font-size: 150%;
+}
+
+.barra-navegacion li a{
+    text-decoration: none;
+    color: black;
+}
+.lineaxd{
+    background-color:black;
+    height: 100%;
+    width: 1px;
+}
+
+.recuadro-celeste{
+    background-color:#C0ECF5;
+    width: 100%;
+    height: 505px;
+}
+
+.info-app{
+    position:relative;
+    width:100%;
+    height: 100%;
+    background-color:transparent;
+}
+.info-app img{
+    position: absolute;
+    width:450px;
+    height: 474px;
+    left: 46%;
+    top: 5%;
+    z-index: 1;
+}
+
+.texto-inicio{
+    background-color:transparent;
+    height:51%;
+    width:52%;
+    position:absolute;
+    z-index: 2;
+    top: 21%;
+    left: 2%;
+}
+
+.texto-inicio h2{
+    font-size:200%;
+    padding: -5%;
+    text-align:center;
+    background-color:transparent;
+
+}
+
+.texto-inicio p {
+    background-color:transparent;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 116%;
+}
+
+.botones-registro {
+    position:absolute;
+    align-items: center;
+    background-color:transparent;
+    left: 73%;
+    top: 20%;
+    z-index: 2;
+    
+}
+.botones-registro button{
+    margin-top:20px;
+    border-radius:20px;
+    height: 100px;
+    width: 100%;
+    background-color:#34C900;
+    color:white;
+    border: none;
+}
+.botones-registro h4{
+    background-color:transparent;
+    font-size:30px;
+}
