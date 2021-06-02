@@ -182,6 +182,7 @@ img{
     font-size:18px;
     margin-top:34px;
     padding: 0px 20px 0px 20px;
+    text-align:justify;
 }
 
 .linea-caracteristica{
@@ -223,6 +224,7 @@ img{
 .quienes-somos-item p{
     font-size: 22px;
     background-color:transparent;
+    
 }
 .linea-quienes{
     height:65%;
