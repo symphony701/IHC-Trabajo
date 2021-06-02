@@ -208,10 +208,11 @@ img{
     color:white;
 }
 .quienes-somos h3{
-    font-size: 40px;
+    font-size: 55px;
     margin-bottom: 5%;
     background-color:transparent;
-    font-weight: bold;
+    font-weight: 100;
+    font-family: 'Bebas Neue';
 }
 .quienes-somos-item ul{
     margin-top:3%;
@@ -233,4 +234,110 @@ img{
     background-color:white;
     margin-right: 3%;
     margin-left: 3%;
+}
+
+.institucion-asociada{
+    width:100%;
+    height: 450px;
+    background-image: url("./../assets/fondo-upc.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fondo-institucion{
+    height:100%;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.719);
+}
+
+.contenido-institucion{
+    width:100%;
+    height:100%;
+    background-color:transparent;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+
+.contenido-institucion img{
+    width: 330px;
+    height: 330px;
+    margin-right: -5%;
+}
+.info-institucion{
+    background-color:transparent;
+    width:40%;
+    color:white;
+}
+.info-institucion h3{
+    background-color:transparent;
+    font-weight:bold;
+    font-size: 55px;
+}
+.info-institucion p{
+    background-color:transparent;
+    font-size: 22px;
+    text-align: center;
+    margin-top:6%;
+}
+
+.footer{
+    width: 100%;
+    height: 420px;
+    background-color:#484848;
+    color:white;
+    justify-content: space-between;
+}
+.linea-footer{
+    width: 80%;
+    height: 1px;
+    margin-left: 11%;
+    margin-bottom: 7%;
+}
+
+.footer p{
+    background-color:transparent;
+    font-size:18px;
+    text-align: center;
+}
+
+.footer-info{
+    background-color:transparent;
+    justify-content:space-evenly;
+    margin-top:1px;
+}
+
+.footer-item{
+    background-color:transparent;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    margin-top:4%;
+}
+.footer-item h5{
+    background-color:transparent;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.contenedor-iconos{
+    background-color:transparent;
+    justify-content:space-evenly;
+}
+.footer-item svg{
+    background-color:transparent;
+    
+}
+.avalible-1{
+    background-color:transparent;
+    justify-content:space-evenly;
+}
+.avalible-1 img{
+    margin:1%;
+}
+.avalible-2{
+    margin-top:4px;
+    background-color:transparent;
+    justify-content:center;
+    
 }
