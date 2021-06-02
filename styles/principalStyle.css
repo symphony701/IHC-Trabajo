@@ -189,3 +189,45 @@ img{
     height: 100%;
     background-color:#E5E5E5;
 }
+
+.quienes-somos{
+    background-color:#E42322;
+    height:379px;
+    width:100%;
+    align-items: center;
+    justify-content:center;
+}
+
+.quienes-somos-item{
+    width: 32%;
+    height: 65%;
+    justify-content: center;
+    text-align:center;
+    background-color:transparent;
+    color:white;
+}
+.quienes-somos h3{
+    font-size: 40px;
+    margin-bottom: 5%;
+    background-color:transparent;
+}
+.quienes-somos-item ul{
+    margin-top:3%;
+    text-align: left;
+    font-size: 22px;
+    background-color:transparent;
+}
+.quienes-somos-item ul li{
+    background-color:transparent;
+}
+.quienes-somos-item p{
+    font-size: 22px;
+    background-color:transparent;
+}
+.linea-quienes{
+    height:65%;
+    width:4px;
+    background-color:white;
+    margin-right: 3%;
+    margin-left: 3%;
+}
