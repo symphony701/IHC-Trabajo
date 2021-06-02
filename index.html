@@ -7,6 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./styles/principalStyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam&display=swap" rel="stylesheet">
     <title>AprenDX</title>
 
 </head>
@@ -23,21 +25,29 @@
     <div class="d-flex p-2 bd-highlight justify-content-center barra-navegacion">
         <ul class="list-group list-group-horizontal">
             <li class="list-group-item"> <a href="#">Inicio</a> </li>
-            <div class="d-flex lineaxd"></div>
-            <li class="list-group-item"><a href="#">¿Qué ofrecemos?</a></li>
-            <div class="d-flex lineaxd"></div>
+            <div class="d-flex container_linea">
+                <div class="d-flex lineaxd"></div>
+            </div>
+            <li class="list-group-item"><a href="#que-ofrecemos">¿Qué ofrecemos?</a></li>
+            <div class="d-flex container_linea">
+                <div class="d-flex lineaxd"></div>
+            </div>
             <li class="list-group-item"><a href="#">¿Quiénes somos?</a></li>
-            <div class="d-flex lineaxd"></div>
+            <div class="d-flex container_linea">
+                <div class="d-flex lineaxd"></div>
+            </div>
             <li class="list-group-item"><a href="#">Asociación</a></li>
-            <div class="d-flex lineaxd"></div>
-            <li class="list-group-item"><a href="#">Descarga</a></li>
+            <div class="d-flex container_linea">
+                <div class="d-flex lineaxd"></div>
+            </div>
+            <li class="list-group-item"><a href="#">Descárgalo</a></li>
         </ul>
     </div>
     <!--Primera info-->
 
     <div class="d-flex recuadro-celeste">
         <div class="info-app">
-            <img src="./assets/profesora.png"  alt="">
+            <img src="./assets/profe.png"  alt="profesora">
             <div class="texto-inicio" >
                 <h2>Mejores asesorías, mejores metodologias,mejores resultados</h2>
                 <p>La aplicación que mejorará tu rendimiento académico a través de asesorías personalizadas con profesores capacitados</p>
@@ -46,6 +56,36 @@
                 <h4>Crea una cuenta gratis</h4>
                 <button> <a href="./registro_estudiante.html">¡Únete como estudiante!</a> </button>
                 <button>¡Únete como profesor!</button>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex que-ofrecemos flex-column" name="que-ofrecemos" id="que-ofrecemos">
+        <div class="d-flex titulo-que-ofrecemos">
+            <h3>¿QUÉ OFRECEMOS?</h3>
+        </div>
+        <div class="d-flex caracteristicas">
+            <div class="d-flex flex-column caracteristicas-items" >
+                <img src="./assets/calendar.png" alt="calendario">
+                <h3>Disponibilidad</h3>
+                <p>El estudiante <b>escoge</b> el día y la hora que más le agrade para <b>reservar</b> una asesoría.</p>
+            </div>
+            <div class="d-flex linea-caracteristica"></div>
+            <div class="d-flex flex-column caracteristicas-items" >
+                <img src="./assets/Vector.png" alt="comodidad">
+                <h3>Disponibilidad</h3>
+                <p><b>Todas</b> las clases son <b>virtuales</b>, así que puedes ingresar a la asesoría desde <b>cualquier</b> lugar, siempre y cuando tengas <b>conexión</b> a internet</p>
+            </div>
+            <div class="d-flex linea-caracteristica"></div>
+            <div class="d-flex flex-column caracteristicas-items" >
+                <img src="./assets/recorder.png" alt="grabaciones">
+                <h3>Disponibilidad</h3>
+                <p>Las asesorías <b>siempre</b> quedan grabadas y se pueden revisar las veces que se desee. Además, la barra de progreso del vídeo está está <b>seccionada</b>, para realizar una búsqueda más <b>rápida</b> y <b>sencilla</b>.</p>
+            </div>
+            <div class="d-flex linea-caracteristica"></div>
+            <div class="d-flex flex-column caracteristicas-items" >
+                <img src="./assets/chat.png" alt="foros">
+                <h3>Disponibilidad</h3>
+                <p>Te damos la posibilidad de <b>publicar</b> en nuestros <b>foros</b> todas las <b>consultas</b> sobre los cursos que quieras. Otros estudiantes o docentes podrán <b>resolver</b> tus <b>dudas</b>.</p>
             </div>
         </div>
     </div>

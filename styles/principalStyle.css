@@ -2,33 +2,65 @@
     margin: 0;
     padding: 0;
     background-color:white;
+    font-family: 'Be Vietnam', sans-serif;
 }
+a{
+    background-color:transparent;
+    color:white;
+}
+
+a:link{
+    text-decoration:none !important;
+}
+
+a:visited{
+    text-decoration:none !important;
+}
+
+a:active{
+    text-decoration: none !important;
+}
+
+img{
+    background-color:transparent;    
+}
+
 .barra-navegacion{
-    background-color:white;
+    background-color: #E42322;
     padding: 0 !important;
-    margin: 0;
-    
+    margin: 0; 
+    color: white;
 }
 
 .barra-navegacion li{
     border: none;
     font-size: 150%;
+    background-color: #E42322;
+    color: white;
 }
 
 .barra-navegacion li a{
     text-decoration: none;
-    color: black;
+    color: white;
+    font-weight: 580;
 }
+
+.container_linea{
+    background-color: #E42322;
+}
+
 .lineaxd{
-    background-color:black;
-    height: 100%;
-    width: 1px;
+    background-color:white;
+    height: 60%;
+    width: 2px;
+    margin-top: 12px;
+    
 }
 
 .recuadro-celeste{
     background-color:#C0ECF5;
     width: 100%;
-    height: 505px;
+    height: 495px;
 }
 
 .info-app{
@@ -61,6 +93,7 @@
     padding: -5%;
     text-align:center;
     background-color:transparent;
+    font-weight: bold;
 
 }
 
@@ -84,16 +117,75 @@
     margin-top:20px;
     border-radius:20px;
     height: 100px;
-    width: 100%;
+    width: 85%;
     background-color:#34C900;
     color:white;
     border: none;
+    font-size: 20px;
 }
 .botones-registro h4{
     background-color:transparent;
     font-size:30px;
 }
+.boton-registro button a{
+    font-size:40px;
+}
 
 .imgLogo{
     margin-left: 60px;
+}
+
+.que-ofrecemos{
+    background-color:white;
+    width: 100%;
+    height: 600px;
+}
+.titulo-que-ofrecemos{
+    background-color:transparent;
+    background-color:white;
+    width:100%;
+    justify-content: center;
+    margin-top:60px;
+}
+.titulo-que-ofrecemos h3{
+    background-color:transparent;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.caracteristicas{
+    background-color:white;
+    width: 100%;
+    height: 100%;
+    padding-top:3%;
+    padding-bottom:3%;
+    padding-left:4%;
+    padding-right:4%;
+}
+.caracteristicas-items{
+    width:25%;
+    height: 100%;
+    background-color:transparent;
+    align-items: center;
+}
+.caracteristicas-items img{
+    width: 90px;
+    height:90px;
+    margin-top:22px;
+}
+.caracteristicas-items h3{
+    font-size: 28px;
+    margin-top:20px;
+}
+
+.caracteristicas-items p{
+    font-size:18px;
+    margin-top:34px;
+    padding: 0px 20px 0px 20px;
+}
+
+.linea-caracteristica{
+    width:4px;
+    height: 100%;
+    background-color:#E5E5E5;
 }
