@@ -500,6 +500,9 @@ img{
     .barra-navegacion{
         display: none !important;
     }
+    .recuadro-celeste{
+        height: 31pc;
+    }
     .info-app{
         position:static;
         display: block;
