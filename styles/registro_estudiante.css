@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    font-family: 'Be Vietnam', sans-serif;
+}
+a{
+    background-color:transparent;
+    color:white;
+}
+
+a:link{
+    text-decoration:none !important;
+}
+
+a:visited{
+    text-decoration:none !important;
+}
+
+a:active{
+    text-decoration: none !important;
+}
+
+img{
+    background-color:transparent;    
+}
+.imgLogo{
+    margin-left: 60px;    
+}
+.barra-navegacion{
+    background-color: #E42322;
+    padding: 0 !important;
+    margin: 0; 
+    color: white;
+}
+
+.barra-navegacion li{
+    border: none;
+    font-size: 150%;
+    background-color: #E42322;
+    color: white;
+}
+
+.barra-navegacion li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 580;
+}
+
+.container_linea{
+    background-color: #E42322;
+}
+
+.lineaxd{
+    background-color:white;
+    height: 60%;
+    width: 2px;
+    margin-top: 12px;
+    
+}
+
+.cuerpo-registro {
+    height: 36pc;
+    background: white;
+}
+
+.titulo-registro {
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    height: auto;
+    margin-top: 2%;
+}
+.ast{
+    color:red;
+}
+.titulo-registro h3{
+    width: 80%;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+}
+.titulo-registro svg{
+    width: 20%;
+}
+
+.formulario{
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 10% 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    display: grid;
+}
+.formulario p{
+    margin-bottom: 0rem;
+    width: 64%;
+}
+.formulario input{
+    width: 64%;
+    height: 25%;
+    border-radius: 10px;
+    background-color: #E4E4E4;
+    border: 2px solid black;
+    padding: 1.5%;
+}
+.formulario input:focus{
+    outline: none;
+}
+.formulario button{
+    grid-row: 4;
+    grid-column: 3;
+    width: 100%;
+    height: 60%;
+    border: none;
+    background-color: #34C900;
+    color: white;
+    border-radius: 20px;
+}
+.nombre{
+    grid-column:1/3;
+    grid-row: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10%;
+    align-items: flex-end;
+}
+
+
+.apellido{
+    grid-row: 1;
+    grid-column:4/6;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10%;
+    align-items: flex-start;
+    
+}
+
+.correo{
+    grid-row: 2;
+    grid-column:1/3;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10%;
+    align-items: flex-end;
+}
+
+.telefono{
+    grid-row: 2;
+    grid-column:4/6;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10%;
+    align-items: flex-start;
+}
+
+.pass{
+    grid-row: 3;
+    grid-column:1/3;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10%;
+    align-items: flex-end;
+}
+
+.c-pass{
+    grid-row: 3;
+    grid-column:4/6;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10%;
+    align-items: flex-start;
+}
+
+
+.footer{
+    width: 100%;
+    height: 420px;
+    background-color:#484848;
+    color:white;
+    justify-content: space-between;
+}
+.linea-footer{
+    width: 80%;
+    height: 1px;
+    margin-left: 11%;
+    margin-bottom: 7%;
+}
+
+.footer p{
+    background-color:transparent;
+    font-size:18px;
+    text-align: center;
+}
+
+.footer-info{
+    background-color:transparent;
+    justify-content:space-evenly;
+    margin-top:1px;
+}
+
+.footer-item{
+    background-color:transparent;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    margin-top:4%;
+}
+.footer-item h5{
+    background-color:transparent;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.contenedor-iconos{
+    background-color:transparent;
+    justify-content:space-evenly;
+}
+.footer-item svg{
+    background-color:transparent;
+    
+}
+.apps{
+    background-color:transparent;
+    flex-direction:column;
+}
+
+.avalible-1{
+    background-color:transparent;
+    justify-content:space-evenly;
+}
+.avalible-1 img{
+    margin:1%;
+}
+.avalible-2{
+    margin-top:4px;
+    background-color:transparent;
+    justify-content:center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
