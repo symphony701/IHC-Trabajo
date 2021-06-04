@@ -330,6 +330,7 @@ img{
 }
 .apps{
     background-color:transparent;
+    flex-direction: column;
 }
 
 .avalible-1{
@@ -679,12 +680,12 @@ img{
         height: 80%;
     }
     .avalible-2 img{
-        width: 89%;
+        width: 42%;
     }
     .contenedor-iconos{
         width: 100%;
         height: auto;
-        flex-direction: column;
+        
         align-items: center;
     }
     .svg-inline--fa.fa-w-14 {
