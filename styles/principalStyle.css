@@ -708,3 +708,11 @@ img{
         margin: 0% 0%;
     }
 }
+@media (max-width:320px){
+    .recuadro-celeste {
+        height: 33pc;
+    }
+    .que-ofrecemos h3 {
+        font-size: 27px;
+    }
+}
