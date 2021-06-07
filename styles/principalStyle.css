@@ -328,6 +328,11 @@ img{
     background-color:transparent;
     
 }
+.apps{
+    background-color:transparent;
+    flex-direction: column;
+}
+
 .avalible-1{
     background-color:transparent;
     justify-content:space-evenly;
@@ -340,4 +345,376 @@ img{
     background-color:transparent;
     justify-content:center;
     
+}
+
+
+
+
+
+
+@media (max-width: 1547px) {
+    .info-institucion h3{
+        text-align: center;
+    }
+  }
+
+@media (max-width:1385px){
+    .botones-registro button{
+        width:76%;
+        height: 84px;
+    }
+}
+
+@media (max-width:1261px){
+    .quienes-somos-item ul{
+        margin-top: none;
+    }
+    .quienes-somos{
+        padding-top: 5%;
+    }
+}
+@media (max-width:1204px){
+    .quienes-somos h3{
+        margin-bottom: -2%;
+        font-size: 50px;
+    }
+}
+@media (max-width:1055px){
+    .titulo-que-ofrecemos h3{
+        font-size: 50px;
+    }
+    .caracteristicas-items p{
+        font-size:17px;
+        margin-top:26px;
+    }
+}
+
+@media (max-width:997px){
+    .quienes-somos-item p{
+        font-size: 22px;
+    }
+    .quienes-somos-item ul li{
+        font-size: 19px;
+    }
+    .info-institucion h3{
+        font-size: 51px;
+    }
+
+    .info-institucion p{
+        font-size: 21px;
+    }
+    .botones-registro button{
+        width:74%;
+        height: 76px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width:961px){
+    .caracteristicas-items img {
+        width: 84px;
+        height: 84px;
+        margin-top: 20px;
+    }
+    .caracteristicas-items p{
+        font-size: 16px;
+    }
+    .info-app img {
+        width: 410px;
+        height: 441px;
+    }
+}
+
+@media (max-width:915px){
+    .caracteristicas-items p{
+        font-size: 99%;
+    }
+}
+@media (max-width:908px){
+    .caracteristicas-items p{
+        font-size: 0.98rem;
+    }
+    .quienes-somos{
+        height: 437px;
+    }
+    .info-app img{
+        left: 40%;
+    }
+    .botones-registro h4{
+        font-size: 27px;
+        text-align: center;
+    }
+    .barra-navegacion li {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width:843px){
+    .barra-navegacion li {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .avalible-1 img {
+        width: 70%;
+    }
+    .avalible-2 img{
+        width: 89%;
+    }
+    .footer p {
+        font-size: 16px;
+    }
+    .info-institucion h3 {
+        font-size: 2.5em;
+    }
+    .quienes-somos h3 {
+        font-size: 3em;
+    }
+    .quienes-somos-item p {
+        font-size: 1.3em;
+    }
+    .caracteristicas-items h3 {
+        font-size: 1.5em;
+    }
+    .caracteristicas-items p {
+        font-size: 0.9rem;
+    }
+    .quienes-somos {
+        height: 400px;
+    }
+    .footer {
+        height: 300px;
+    }
+}
+@media (max-width: 810px){
+    .quienes-somos {
+    height: 550px;
+    }
+}
+@media (max-width: 810px){
+    .quienes-somos {
+    height: 550px;
+    }
+}
+
+@media (max-width:425px){
+    .barra-navegacion{
+        display: none !important;
+    }
+    .recuadro-celeste{
+        height: 31pc;
+    }
+    .info-app{
+        position:static;
+        display: block;
+        text-align: center;
+        height: auto;
+        width: 100%;
+        
+    }
+    .info-app img{
+        position: static;
+        left: 0;
+        top: 0;
+        z-index: 0;
+        width: 100px;
+        height: 100px;
+        width: 180px;
+        height: 180px;
+        margin-top: 9px;
+    }
+    
+    .texto-inicio{
+        position: static;
+        z-index: 0;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        padding: 0% 4%;
+    }
+    .texto-inicio h2{
+        font-size: 19px;
+    }
+    .texto-inicio p{
+        font-size: 17px;
+        margin-top: 25px;
+    }
+    .botones-registro{
+        position: static;
+        z-index: 0;
+        top:0;
+        left: 0;
+        display: grid !important;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        width: 100%;
+    }
+    .botones-registro h4{
+        grid-column: 1/3;
+        grid-row: 1;
+        font-size: 20px;
+
+    }
+    .botones-registro button{
+        grid-row: 2;
+        width: 66%;
+        height: 71px;
+        font-size: 14px;
+        margin-left: 17%;
+    }
+    .que-ofrecemos{
+        height: auto;
+        display: block !important;
+        text-align: center;
+        
+    }
+    .que-ofrecemos h3{
+        font-size: 36px;
+    }
+    .caracteristicas{
+        padding-bottom: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+        display: block !important;
+        text-align: center; 
+    }
+    .caracteristicas-items{
+        width: 100%;
+        padding: 0% 16%;
+    }
+    .linea-caracteristica{
+        width: 88%;
+        height: 4px;
+        margin:auto;
+    }
+    .quienes-somos{
+        height: auto;
+        width: 100%;
+        display: block !important;
+    }
+    .quienes-somos h3{
+        font-size: 2em;
+        margin: 6% 0%;
+
+    }
+    .quienes-somos p{
+        font-size: 1em;
+        text-align: inherit;
+    }
+    .quienes-somos ul{
+        margin-bottom: 8%;
+    }
+    .quienes-somos ul li{
+        font-size: 0.7em;
+    }
+    .quienes-somos-item{
+        width: 100%;
+        padding: 0% 10%;
+        margin: 0% 0%;
+    }
+    .linea-quienes{
+        margin-left: 10%;
+        width: 80%;
+        height: 4px;
+    }
+    .institucion-asociada{
+        height: auto;
+    }
+    .contenido-institucion{
+        width: 100%;
+        height: 100%;
+        display: block !important;
+        align-items: center;
+        text-align: center;
+    }
+    .contenido-institucion img{
+        width: 171px;
+        height: 171px;
+    }
+    .info-institucion{
+        width: 100%;
+        margin-bottom: 6%;
+    }
+    .info-institucion h3{
+        font-size: 1.5em;
+    }
+    .info-institucion p{
+        font-size:18px;
+        padding: 0% 4%;
+    }
+    .footer{
+        height: auto;
+        width: 100%;
+    }
+    .footer-info{
+        display:grid !important;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+    .footer-item{
+        width:auto;
+    }
+    .contactenos{
+        grid-column:1;
+        grid-row: 1;
+    }
+    .footer-item h5 {
+        font-size: 1.1rem;
+    }
+    .footer p {
+        font-size: 13px;
+        margin-top: 5%;
+    }
+    .siguenos{
+        grid-column:2;
+        grid-row: 1;
+    }
+    .descargalo{
+        grid-column:1/3;
+        grid-row: 2;
+    }
+    .avalible-1 img{
+        width: 46%;
+        padding-left: 4%;
+        height: 80%;
+    }
+    .avalible-2 img{
+        width: 42%;
+    }
+    .contenedor-iconos{
+        width: 100%;
+        height: auto;
+        
+        align-items: center;
+    }
+    .svg-inline--fa.fa-w-14 {
+        width: -0.125em !important;
+    }
+    .fa-3x {
+        font-size: 1.8em !important;
+    }
+
+}
+
+@media (max-width:375px){
+    .botones-registro button{
+        height: 56px;
+    }
+    .imgLogo {
+        margin-left: 33px;
+        width: 39%;
+        height: auto;
+    }
+    .quienes-somos-item {
+        margin: 0% 0%;
+    }
+}
+@media (max-width:320px){
+    .recuadro-celeste {
+        height: 33pc;
+    }
+    .que-ofrecemos h3 {
+        font-size: 27px;
+    }
 }
