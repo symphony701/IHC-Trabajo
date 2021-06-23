@@ -31,6 +31,16 @@ img{
     margin: 0; 
     color: white;
 }
+.button-bar{
+    background-color:transparent;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    color:black;
+    border : none;
+    display: none;
+}
+
 
 .barra-navegacion li{
     border: none;
@@ -497,10 +507,64 @@ img{
     }
 }
 
-@media (max-width:425px){
-    .barra-navegacion{
+@media (max-width:675px){
+    .navbar-brand {
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: 0rem; 
+        font-size: 0rem; 
+        text-decoration: none;
+        white-space: nowrap;
+        
+    }
+    .button-bar {
+        display: block;
+    }
+    .loguito{
+        display: grid !important ; 
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+        grid-template-rows: 1fr; 
+    }
+    .loguito a {
+        grid-column: 3/6;
+    }
+    .imgLogo {
+        margin-left: 5px;
+        width: 79%;
+        height: auto;
+    }
+    .container-fluid{
+        flex-wrap: nowrap !important;
+    }
+
+    .container_linea {
+        background-color: #E42322;
         display: none !important;
     }
+
+    .barra-navegacion {
+        /* display: none !important; */
+        flex-direction: column;
+        display: flex !important;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: 3;
+        left: 100%;
+        transition: left 0.3s;
+        justify-content: flex-start !important;
+    }
+
+    .barra-navegacion-visible{
+        
+        left: 0% !important;
+
+    }
+
+    .list-group-horizontal {
+        flex-direction: column;
+    }
+
     .recuadro-celeste{
         height: 31pc;
     }
@@ -701,11 +765,7 @@ img{
     .botones-registro button{
         height: 56px;
     }
-    .imgLogo {
-        margin-left: 33px;
-        width: 39%;
-        height: auto;
-    }
+   
     .quienes-somos-item {
         margin: 0% 0%;
     }
